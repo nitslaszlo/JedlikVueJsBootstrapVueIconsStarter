@@ -86,7 +86,7 @@ export default class HelloWorldPlus extends Vue {
   }
 
   @Watch("felkialtojelDarab")
-  private onNumChanged(value: number, oldValue: number) {
+  private onNumChanged() {
     this.felkialtojelek = "!".repeat(this.felkialtojelDarab);
   }
 }
